@@ -1,7 +1,7 @@
 import socket
 
-RHOST = "www.google.com"
-RPORT = 80
+RHOST = "0.0.0.0"
+RPORT = 9998
 
 # create a socket
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
